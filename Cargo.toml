@@ -1,10 +1,11 @@
 [package]
-name = "rust_opengl"
+name = "rust_gl"
 version = "0.1.0"
-authors = ["pedro.almeida <pedroalmeida@softbox.com.br>"]
+authors = ["pedro.almeida <pedro.am1411@gmail.com"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-sdl2 = {version = "0.32.2", features = ["bundled","static-link"]}
+sdl2 = {version = "0.32.2", features = ["bundled", "static-link"]}
+gl = "0.14.0"
